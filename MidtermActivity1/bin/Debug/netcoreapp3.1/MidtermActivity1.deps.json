@@ -1,0 +1,50 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "MidtermActivity1/1.0.0": {
+        "dependencies": {
+          "ClassLibrary1": "1.0.0",
+          "StatisticsLibrary": "1.0.0"
+        },
+        "runtime": {
+          "MidtermActivity1.dll": {}
+        }
+      },
+      "ClassLibrary1/1.0.0": {
+        "runtime": {
+          "ClassLibrary1.dll": {}
+        }
+      },
+      "StatisticsLibrary/1.0.0": {
+        "dependencies": {
+          "ClassLibrary1": "1.0.0"
+        },
+        "runtime": {
+          "StatisticsLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MidtermActivity1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ClassLibrary1/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "StatisticsLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
